@@ -107,3 +107,63 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            /* Ruta de tu imagen de fondo */
+            background-image: url('fondo.jpg');  
+            /* Ajusta la imagen para que cubra todo el cuerpo */
+            background-size: cover; 
+            /* Fija la imagen para que no se mueva al hacer scroll */
+            background-attachment: fixed;
+            /* Centra la imagen en la pantalla */
+            background-position: center; 
+            /* Evita que se repita la imagen */
+            background-repeat: no-repeat;
+            /* Establece una altura mínima para que se vea el fondo */
+            min-height: 100vh;
+            /* Elimina los márgenes predeterminados del body */
+            margin: 0
+            /* Opcional: Estilo de texto para que contraste con el fondo */
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+    }
+        h1 {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
