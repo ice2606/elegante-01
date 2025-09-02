@@ -162,5 +162,96 @@
 
 
 
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de Correo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            box-sizing: border-box;
+        }
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .error-message {
+            color: red;
+            font-size: 0.9em;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            display: none; /* Oculto por defecto */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ingresa tu Correo</h1>
+        <div class="input-group">
+            <input type="email" id="emailInput" placeholder="correo@ejemplo.com">
+        </div>
+        <p class="error-message" id="errorMessage">Por favor, introduce un correo electrónico válido.</p>
+        <button class="btn" onclick="validateEmail()">Acceder</button>
+    </div>
+    <script>
+        function validateEmail() {
+            const emailInput = document.getElementById('emailInput');
+            const errorMessage = document.getElementById('errorMessage');
+            const emailValue = emailInput.value.trim();
+            // Expresión regular para validar el formato del correo
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailRegex.test(emailValue)) {
+                // Si el correo es válido, oculta el mensaje de error y redirige
+                errorMessage.style.display = 'none';
+                window.location.href = 'https://ice2606.github.io/elegante-02/'; // Reemplaza con la URL de tu página de destino
+            } else {
+                // Si el correo no es válido, muestra el mensaje de error
+                errorMessage.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
 
