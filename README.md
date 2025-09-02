@@ -57,8 +57,7 @@
         <h1>CALZADO ELEGANTE </h1>
         <h2>encuentra tu mejor estilo de calzado con nuestro catalogo exclusivo </h2>
         <div class="image-container">
-            <img src="01.jpg
-                " alt="Descripción de la imagen">
+            <img src="01.jpg" alt="Descripción de la imagen">
         </div>
     </div>
 </body>
