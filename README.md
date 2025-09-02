@@ -100,9 +100,7 @@
             <img src="01.jpg" alt="Descripción de la imagen">
         </div>
         <div class="button-group">
-            <a href="catalogo.html" class="orange-btn">Catálogo</a>
-            <a href="ofertas.html" class="orange-btn">Ofertas</a>
-            <a href="contacto.html" class="orange-btn">Contacto</a>
+            <a href="https://ice2606.github.io/elegante-02/" class="orange-btn">Catálogo</a>
         </div>
     </div>
 </body>
