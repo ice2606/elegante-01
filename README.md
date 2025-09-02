@@ -54,7 +54,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>cCALZADO ELEGANTE </h1>
+        <h1>CALZADO ELEGANTE </h1>
         <h2>encuentra tu mejor estilo de calzado con nuestro catalogo exclusivo </h2>
         <div class="image-container">
             <img src="https://via.placeholder.com/400" alt="Descripción de la imagen">
